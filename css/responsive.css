@@ -1,0 +1,295 @@
+@media (min-width:992px) and (max-width:1199px) {
+    .container {
+        max-width: 990px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    header nav.navbar .icons {
+        padding: 0px 20px;
+        display: none;
+    }
+
+    header i.fa.fa-bars {
+        font-size: 25px;
+        color: #ffffff;
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    button.navbar-toggler.collapsed {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    header a.nav-link {
+        padding: 15px 0px 0px;
+    }
+
+    header button.navbar-toggler {
+        box-shadow: none;
+        border: none;
+        outline: none;
+    }
+
+    header .navbar-collapse {
+        position: absolute;
+        top: 50px;
+        width: 100vw;
+        left: 0;
+        background: #000000;
+        z-index: 3;
+        text-align: center !important;
+    }
+
+    header .header-banner {
+        height: 500px;
+    }
+
+    header nav.navbar .collapse ul li.nav-item a.nav-link {
+        color: #ffffff;
+        padding: 10px 20px;
+    }
+
+    .banner-second .image-section img {
+        height: 300px;
+    }
+
+    .banner-second .text-box p {
+        width: 90%;
+    }
+
+    .easy-section h1 {
+        font-size: 24px;
+    }
+
+    .easy-section .box .title {
+        font-size: 16px;
+    }
+
+    .easy-section .box .sub-title {
+        font-size: 13px;
+    }
+
+    .easy-section .box {
+        padding: 10px 15px;
+    }
+
+    .banner-third {
+        height: 450px;
+    }
+
+    .banner-third::before {
+        height: 450px;
+    }
+
+    .banner-third .text-box .title {
+        font-size: 24px;
+    }
+
+    .banner-third .text-box .sub-title {
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .best-section .text-box h2 {
+        font-size: 24px;
+    }
+
+    .best-section .text-box .title {
+        font-size: 13px;
+        width: 55%;
+    }
+
+    .best-section .image-box {
+        margin-bottom: 30px;
+    }
+
+    .best-section .image-box img {
+        height: 220px;
+    }
+
+    .banner-fourth .image-section img {
+        height: 300px;
+    }
+
+    .review-section .review-box p {
+        font-size: 13px;
+        width: 77%;
+    }
+
+}
+
+@media (max-width:767px) {
+    .container {
+        max-width: 100%;
+    }
+
+    header nav.navbar .icons {
+        padding: 0px 20px;
+        display: none;
+    }
+
+    header i.fa.fa-bars {
+        font-size: 25px;
+        color: #ffffff;
+        outline: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    button.navbar-toggler.collapsed {
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+
+    header a.nav-link {
+        padding: 15px 0px 0px;
+    }
+
+    header button.navbar-toggler {
+        box-shadow: none;
+        border: none;
+        outline: none;
+    }
+
+    header .navbar-collapse {
+        position: absolute;
+        top: 50px;
+        width: 100vw;
+        left: 0;
+        background: #000000;
+        z-index: 3;
+        text-align: center !important;
+    }
+
+    header .header-banner {
+        height: 500px;
+    }
+
+    header nav.navbar .collapse ul li.nav-item a.nav-link {
+        color: #ffffff;
+        padding: 10px 20px;
+    }
+
+    .banner-second .image-section img {
+        height: auto;
+    }
+
+    .banner-second .text-box p {
+        width: 90%;
+        padding: 10px 0px;
+    }
+
+    .button {
+        padding: 10px 0px;
+    }
+
+    .banner-second .text-box {
+        padding: 15px 0px;
+    }
+
+    .easy-section h1 {
+        font-size: 18px;
+    }
+
+    .easy-section .box .title {
+        font-size: 16px;
+    }
+
+    .easy-section .box .sub-title {
+        font-size: 13px;
+    }
+
+    .easy-section .box {
+        margin-bottom: 30px;
+    }
+
+    .banner-third {
+        height: 400px;
+    }
+
+    .banner-third::before {
+        height: 400px;
+    }
+
+    .banner-third .text-box .title {
+        font-size: 24px;
+    }
+
+    .banner-third .text-box .sub-title {
+        font-size: 13px;
+        width: 77%;
+    }
+
+    .best-section .text-box h2 {
+        font-size: 18px;
+    }
+
+    .best-section .text-box .title {
+        font-size: 13px;
+        width: 93%;
+    }
+    .banner-fourth .text-box p {
+    width: 90%;
+    padding: 10px 0px;
+}
+.banner-fourth .text-box {
+    padding: 15px 0px;
+}
+
+
+    .best-section .image-box {
+        margin-bottom: 30px;
+    }
+
+    .best-section .image-box img {
+        height: 220px;
+    }
+
+    .banner-fourth .image-section img {
+        height: auto;
+    padding: 15px 0px;
+    }
+
+    .review-section .review-box p {
+        font-size: 13px;
+        width: 77%;
+    }
+    footer {
+        text-align: left;
+    }
+
+    footer .about-us p {
+        font-size: 13px;
+    }
+
+    footer ul li a:hover, footer ul li a:focus {
+        color: #925a95;
+    }
+
+    footer .social-icon ul li a:hover, footer .social-icon ul li a:focus {
+        color: #925a95;
+    }
+
+    footer .title {
+        font-size: 16px;
+    }
+
+    footer ul li {
+        font-size: 13px;
+    }
+
+    .copyright {
+    padding: 12px 0px 0px 0px;
+}
+
+}
